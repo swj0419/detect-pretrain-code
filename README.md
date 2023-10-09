@@ -12,9 +12,9 @@ This repository provides an original implementation of [Detecting Pretraining Da
 :star: If you find our implementation and paper helpful, please consider citing our work :star: :
 
 ```bibtex
-@article{ silo,
-    title={ {SILO} Language Models: Isolating Legal Risk in a Nonparametric Datastore },
-    author={ Min, Sewon and Gururangan, Suchin and Wallace, Eric and Hajishirzi, Hannaneh and Smith, Noah and Zettlemoyer, Luke },
+@article{ ...,
+    title={ .... },
+    author={... },
     year={ 2023 },
     journal={ arXiv preprint arXiv:2308.04430 },
     url={ https://arxiv.org/abs/2308.04430 }
@@ -23,7 +23,7 @@ This repository provides an original implementation of [Detecting Pretraining Da
 
 ## 📘 WikiMIA Datasets
 
-Access our **WikiMIA datasets** directly on [Hugging Face](https://huggingface.co/datasets/swj0419/WikiMIA).
+The **WikiMIA datasets** serve as a benchmark designed to evaluate membership inference attack (MIA) methods, specifically in detecting pretraining data from extensive large language models. Access our **WikiMIA datasets** directly on [Hugging Face](https://huggingface.co/datasets/swj0419/WikiMIA).
 
 #### Loading the Datasets:
 
