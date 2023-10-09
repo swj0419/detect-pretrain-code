@@ -66,7 +66,7 @@ python src/run.py --target_model text-davinci-003 --ref_model huggyllama/llama-7
 
 * Data Length: Define the length for the WikiMIA benchmark with --length. Available options: 32, 54, 128, 256.
 
-📌 Note: By default, outputs are saved to the out directory.
+📌 Note: For optimal results, use fixed-length inputs with our Min-K Prob method.
 
 📊 Baselines: Our script comes with the following baselines: PPL, Calibration Method, PPL/zlib_compression, PPL/lowercase_ppl
 
