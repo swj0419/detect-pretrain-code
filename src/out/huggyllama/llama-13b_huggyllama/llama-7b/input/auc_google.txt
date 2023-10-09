@@ -1,0 +1,10 @@
+ppl	0.663
+ppl/Ref_ppl (calibrate PPL to the reference model)	0.626
+ppl/lowercase_ppl	0.58
+ppl/zlib	0.619
+mean	0.663
+Min_0.2% Prob	0.677
+Min_0.3% Prob	0.678
+Min_0.4% Prob	0.675
+Min_0.5% Prob	0.67
+Min_0.6% Prob	0.666
