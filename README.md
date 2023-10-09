@@ -68,5 +68,5 @@ python src/run.py --target_model text-davinci-003 --ref_model huggyllama/llama-7
 
 📌 Note: By default, outputs are saved to the out directory.
 
-📊 Baselines: Our tool comes with the following baselines: PPL, Calibration Method, PPL/zlib_compression, PPL/lowercase_ppl
+📊 Baselines: Our script comes with the following baselines: PPL, Calibration Method, PPL/zlib_compression, PPL/lowercase_ppl
 
