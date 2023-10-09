@@ -1,20 +1,15 @@
-# Detecting Pretraining Data from Large Language Models
+# :detective: Detecting Pretraining Data from Large Language Models
 
-This repository provides an original implementation of [Detecting Pretraining Data from Large Language Models](https://arxiv.org/abs/2308.04430) by:
-- [Weijia Shi](https://weijia-shi.netlify.app)
-- Anirudh Ajith
-- [Mengzhou Xia](https://xiamengzhou.github.io)
-- [Yangsibo Huang](https://hazelsuko07.github.io/yangsibo)
-- [Daogao Liu](https://daogaoliu.github.io/)
-- [Terra Blevins](https://blvns.github.io/)
-- [Danqi Chen](https://www.cs.princeton.edu/~danqic)
-- [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz).
+This repository provides an original implementation of [Detecting Pretraining Data from Large Language Models](https://arxiv.org/abs/2308.04430) by [Weijia Shi](https://weijia-shi.netlify.app), Anirudh Ajith, [Mengzhou Xia](https://xiamengzhou.github.io), [Yangsibo Huang](https://hazelsuko07.github.io/yangsibo), [Daogao Liu](https://daogaoliu.github.io/)
+, [Terra Blevins](https://blvns.github.io/)
+, [Danqi Chen](https://www.cs.princeton.edu/~danqic)
+, [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz).
 
 <p align="center">
   <img src="mink_prob.png" width="80%" height="80%">
 </p>
 
-If you find our implementation and paper helpful, please consider citing our work:
+:star: If you find our implementation and paper helpful, please consider citing our work :star: :
 
 ```bibtex
 @article{ silo,
@@ -54,7 +49,7 @@ Our codebase supports many models: Whether you're using **OpenAI models** that o
   - `meta-llama/Llama-2-70b`
   - `huggyllama/llama-70b`
   - `EleutherAI/gpt-neox-20b`
-
+  - ...
 🔐 **Important**: When using OpenAI models, ensure to add your API key at `Line 38` in `run.py`:
 ```python
 openai.api_key = "YOUR_API_KEY"
