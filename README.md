@@ -1,9 +1,9 @@
 # :detective: Detecting Pretraining Data from Large Language Models
 
-This repository provides an original implementation of [Detecting Pretraining Data from Large Language Models](https://arxiv.org/pdf/2310.16789.pdf) by *[Weijia Shi], *Anirudh Ajith, [Mengzhou Xia], [Yangsibo Huang], [Daogao Liu]
-, [Terra Blevins]
-, [Danqi Chen]
-, [Luke Zettlemoyer]
+This repository provides an original implementation of [Detecting Pretraining Data from Large Language Models](https://arxiv.org/pdf/2310.16789.pdf) by *Weijia Shi, *Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu
+, Terra Blevins
+, Danqi Chen
+, Luke Zettlemoyer
 
 [Website](https://swj0419.github.io/detect-pretrain.github.io/) |  [Paper](https://arxiv.org/pdf/2310.16789.pdf) | [WikiMIA Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) | [Detection Method Min-K% Prob](#🚀run-our-min-k%-prob-&-other-baselines) 
 
