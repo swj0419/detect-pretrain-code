@@ -6,11 +6,11 @@ This repository provides an original implementation of [Detecting Pretraining Da
 , [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz).
 
 
-[Website](https://swj0419.github.io/detect-pretrain.github.io/) | [Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) | [Detection Method Min-K% Prob](#🚀run-our-min-k%-prob-&-other-baselines) 
+[Website](https://swj0419.github.io/detect-pretrain.github.io/) |  [Paper](https://arxiv.org/pdf/2310.16789.pdf) | [Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) | [Detection Method Min-K% Prob](#🚀run-our-min-k%-prob-&-other-baselines) 
 
-
+## Overview
 We explore the **pretraining data detection problem**: given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text? 
-To faciliate the study, we built a dynamic benchmark WikiMIA to systematically evaluate detecting methods. We additionally proposed Min-K% Prob 🕵️, a method for detecting undisclosed pretraining data from large language models. 
+To faciliate the study, we built a dynamic benchmark **WikiMIA** to systematically evaluate detecting methods and proposed **Min-K% Prob** 🕵️, a method for detecting undisclosed pretraining data from large language models. 
 
 <p align="center">
   <img src="mink_prob.png" width="80%" height="80%">
