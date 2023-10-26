@@ -6,7 +6,7 @@ This repository provides an original implementation of [Detecting Pretraining Da
 , [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz).
 
 
-[Website](https://swj0419.github.io/detect-pretrain.github.io/) | [Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) | [Detection Method Min-K% Prob](#🚀-run-our-min-k%-prob-&-other-baselines) 
+[Website](https://swj0419.github.io/detect-pretrain.github.io/) | [Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) | [Detection Method Min-K% Prob](#🚀run-our-min-k%-prob-&-other-baselines) 
 
 
 We explore the **pretraining data detection problem**: given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text? 
@@ -44,7 +44,7 @@ dataset = load_dataset("swj0419/WikiMIA", split=f"WikiMIA_length{LENGTH}")
 * *Label 0*: Refers to the unseen data during pretraining. *Label 1*: Refers to the seen data.
 * WikiMIA is applicable to all models released between 2017 to 2023 such as  `LLaMA1/2, GPT-Neo, OPT, Pythia, text-davinci-001, text-davinci-002 ...`
 
-## 🚀 **Run our Min-K% Prob & Other Baselines**
+## 🚀Run our Min-K% Prob & Other Baselines
 
 Our codebase supports many models: Whether you're using **OpenAI models** that offer logits or models from **Huggingface**, we've got you covered:
 
