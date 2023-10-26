@@ -5,7 +5,7 @@ This repository provides an original implementation of [Detecting Pretraining Da
 , Danqi Chen
 , Luke Zettlemoyer
 
-[Website](https://swj0419.github.io/detect-pretrain.github.io/) |  [Paper](https://arxiv.org/pdf/2310.16789.pdf) | [WikiMIA Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) | [Detection Method Min-K% Prob](#🚀run-our-min-k%-prob-&-other-baselines) 
+[Website](https://swj0419.github.io/detect-pretrain.github.io/) |  [Paper](https://arxiv.org/pdf/2310.16789.pdf) | [WikiMIA Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) | [Detection Method Min-K% Prob](#🚀run-our-min-k%-prob-&-other-baselines)(see the following codebase) 
 
 ## Overview
 We explore the **pretraining data detection problem**: given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text? 
