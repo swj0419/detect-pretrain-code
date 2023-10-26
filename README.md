@@ -1,6 +1,6 @@
 # :detective: Detecting Pretraining Data from Large Language Models
 
-This repository provides an original implementation of [Detecting Pretraining Data from Large Language Models](https://arxiv.org/abs/2308.04430) by *[Weijia Shi](swj0419.github.io), *Anirudh Ajith, [Mengzhou Xia](https://xiamengzhou.github.io), [Yangsibo Huang](https://hazelsuko07.github.io/yangsibo), [Daogao Liu](https://daogaoliu.github.io/)
+This repository provides an original implementation of [Detecting Pretraining Data from Large Language Models](https://arxiv.org/pdf/2310.16789.pdf) by *[Weijia Shi](swj0419.github.io), *Anirudh Ajith, [Mengzhou Xia](https://xiamengzhou.github.io), [Yangsibo Huang](https://hazelsuko07.github.io/yangsibo), [Daogao Liu](https://daogaoliu.github.io/)
 , [Terra Blevins](https://blvns.github.io/)
 , [Danqi Chen](https://www.cs.princeton.edu/~danqic)
 , [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz).
@@ -44,7 +44,7 @@ dataset = load_dataset("swj0419/WikiMIA", split=f"WikiMIA_length{LENGTH}")
 * *Label 0*: Refers to the unseen data during pretraining. *Label 1*: Refers to the seen data.
 * WikiMIA is applicable to all models released between 2017 to 2023 such as  `LLaMA1/2, GPT-Neo, OPT, Pythia, text-davinci-001, text-davinci-002 ...`
 
-## 🚀Run our Min-K% Prob & Other Baselines
+## 🚀 Run our Min-K% Prob & Other Baselines
 
 Our codebase supports many models: Whether you're using **OpenAI models** that offer logits or models from **Huggingface**, we've got you covered:
 
