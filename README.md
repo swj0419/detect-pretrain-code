@@ -1,9 +1,16 @@
 # :detective: Detecting Pretraining Data from Large Language Models
 
-This repository provides an original implementation of [Detecting Pretraining Data from Large Language Models](https://arxiv.org/abs/2308.04430) by *[Weijia Shi](https://weijia-shi.netlify.app), *Anirudh Ajith, [Mengzhou Xia](https://xiamengzhou.github.io), [Yangsibo Huang](https://hazelsuko07.github.io/yangsibo), [Daogao Liu](https://daogaoliu.github.io/)
+This repository provides an original implementation of [Detecting Pretraining Data from Large Language Models](https://arxiv.org/abs/2308.04430) by *[Weijia Shi](swj0419.github.io), *Anirudh Ajith, [Mengzhou Xia](https://xiamengzhou.github.io), [Yangsibo Huang](https://hazelsuko07.github.io/yangsibo), [Daogao Liu](https://daogaoliu.github.io/)
 , [Terra Blevins](https://blvns.github.io/)
 , [Danqi Chen](https://www.cs.princeton.edu/~danqic)
 , [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz).
+
+
+[Website](https://swj0419.github.io/detect-pretrain.github.io/) | [Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) | [Detection Method Min-K% Prob](#Run-our-Min-K%-Prob-&-Other-Baselines) 
+
+
+We explore the **pretraining data detection problem**: given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text? 
+To faciliate the study, we built a dynamic benchmark WikiMIA to systematically evaluate detecting methods. We additionally proposed Min-K% Prob 🕵️, a method for detecting undisclosed pretraining data from large language models. 
 
 <p align="center">
   <img src="mink_prob.png" width="80%" height="80%">
@@ -12,12 +19,13 @@ This repository provides an original implementation of [Detecting Pretraining Da
 :star: If you find our implementation and paper helpful, please consider citing our work :star: :
 
 ```bibtex
-@article{ ...,
-    title={ .... },
-    author={... },
-    year={ 2023 },
-    journal={ arXiv preprint arXiv:2308.04430 },
-    url={ https://arxiv.org/abs/2308.04430 }
+@misc{shi2023detecting,
+    title={Detecting Pretraining Data from Large Language Models},
+    author={Weijia Shi and Anirudh Ajith and Mengzhou Xia and Yangsibo Huang and Daogao Liu and Terra Blevins and Danqi Chen and Luke Zettlemoyer},
+    year={2023},
+    eprint={2310.16789},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
 }
 ```
 
