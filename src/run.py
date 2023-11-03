@@ -115,7 +115,7 @@ def inference(model1, model2, tokenizer1, tokenizer2, text, ex, modelname1, mode
 def evaluate_data(test_data, model1, model2, tokenizer1, tokenizer2, col_name, modelname1, modelname2):
     print(f"all data size: {len(test_data)}")
     all_output = []
-    test_data = test_data[:50]
+    test_data = test_data
     for ex in tqdm(test_data): 
         text = ex[col_name]
         new_ex = inference(model1, model2, tokenizer1, tokenizer2, text, ex, modelname1, modelname2)
