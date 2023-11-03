@@ -56,7 +56,6 @@ The dataset contains non-member and member data:
 
 ```python
 from datasets import load_dataset
-LENGTH = 64
 dataset = load_dataset("swj0419/BookMIA")
 ```
 * Available Text Lengths: `512`.
