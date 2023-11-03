@@ -5,7 +5,7 @@ This repository provides an original implementation of [Detecting Pretraining Da
 , Danqi Chen
 , Luke Zettlemoyer
 
-[Website](https://swj0419.github.io/detect-pretrain.github.io/) |  [Paper](https://arxiv.org/pdf/2310.16789.pdf) | [WikiMIA Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) | [Detection Method Min-K% Prob](#🚀run-our-min-k%-prob-&-other-baselines)(see the following codebase) 
+[Website](https://swj0419.github.io/detect-pretrain.github.io/) |  [Paper](https://arxiv.org/pdf/2310.16789.pdf) | [WikiMIA Benchmark](https://huggingface.co/datasets/swj0419/WikiMIA) |  [BookMIA Benchmark](https://huggingface.co/datasets/swj0419/BookMIA) | [Detection Method Min-K% Prob](#🚀run-our-min-k%-prob-&-other-baselines)(see the following codebase) 
 
 ## Overview
 We explore the **pretraining data detection problem**: given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text? 
@@ -42,6 +42,28 @@ dataset = load_dataset("swj0419/WikiMIA", split=f"WikiMIA_length{LENGTH}")
 * Available Text Lengths: `32, 64, 128, 256`.
 * *Label 0*: Refers to the unseen data during pretraining. *Label 1*: Refers to the seen data.
 * WikiMIA is applicable to all models released between 2017 to 2023 such as  `LLaMA1/2, GPT-Neo, OPT, Pythia, text-davinci-001, text-davinci-002 ...`
+
+## 📘 BookMIA Datasets for evaluating MIA on OpenAI models
+
+The BookMIA datasets serve as a benchmark designed to evaluate membership inference attack (MIA) methods, specifically in detecting pretraining data from OpenAI models that are released before 2023 (such as text-davinci-003). Access our **BookMIA datasets** directly on [Hugging Face](https://huggingface.co/datasets/swj0419/BookMIA).
+
+The dataset contains non-member and member data: 
+- non-member data consists of text excerpts from books first published in 2023
+- member data includes text excerpts from older books, as categorized by Chang et al. in 2023.
+
+
+#### Loading the Datasets:
+
+```python
+from datasets import load_dataset
+LENGTH = 64
+dataset = load_dataset("swj0419/BookMIA")
+```
+* Available Text Lengths: `512`.
+* *Label 0*: Refers to the unseen data during pretraining. *Label 1*: Refers to the seen data.
+* WikiMIA is applicable to OpenAI models that are released before 2023  `text-davinci-003, text-davinci-002 ...`
+
+
 
 ## 🚀 Run our Min-K% Prob & Other Baselines
 
